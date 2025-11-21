@@ -1,7 +1,7 @@
 package theater;
 
 /**
- * Class representing a performance of a play..
+ * Class representing a performance of a play.
  */
 public class Performance {
 
@@ -17,7 +17,7 @@ public class Performance {
         return playID;
     }
 
-    public int getAudience(){
+    public int getAudience() {
         return audience;
     }
 }

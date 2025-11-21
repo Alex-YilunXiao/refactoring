@@ -1,5 +1,8 @@
 package theater;
 
+/**
+ * Class representing a play.
+ */
 public class Play {
 
     private String name;
@@ -10,11 +13,11 @@ public class Play {
         this.type = type;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
-    public String getType(){
+    public String getType() {
         return type;
     }
 }
